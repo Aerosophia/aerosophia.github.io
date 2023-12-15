@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffe6f2; /* Light pink background */
+    color: #333; /* Dark text color */
 }
 
 .container {
@@ -17,16 +18,12 @@ header {
     padding: 1em 0;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2em;
+h1, h2 {
+    color: #ff66b2; /* Dark pink heading color */
 }
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+.projects, .skills, .about, .contact {
+    padding: 20px 0;
 }
 
 .project-card {
@@ -52,4 +49,3 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
-
