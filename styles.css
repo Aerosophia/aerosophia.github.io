@@ -2,7 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffdce5; /* Light pink background */
+    background-color: #ffe6f2; /* Light pink background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -32,7 +37,19 @@ h1 {
     margin: 10px;
     padding: 20px;
     width: 300px;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 footer {
-    background-color: #ff66b2; /* D
+    background-color: #ff66b2; /* Dark pink footer background */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
